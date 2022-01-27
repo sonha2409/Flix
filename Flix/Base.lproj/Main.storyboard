@@ -52,6 +52,7 @@
                                             <outlet property="posterView" destination="1Rf-ti-7ja" id="ZF4-lM-fq1"/>
                                             <outlet property="sypnosisLabel" destination="qJw-3e-2zg" id="eHb-wb-TkE"/>
                                             <outlet property="titleLabel" destination="AcM-3x-ziV" id="f2w-fC-7kf"/>
+                                            <segue destination="3Ox-Hs-fVl" kind="show" id="igz-bz-1bk"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -87,16 +88,17 @@
             </objects>
             <point key="canvasLocation" x="-387" y="-592"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie Details View Controller-->
         <scene sceneID="2WA-88-h4Y">
             <objects>
-                <viewController id="3Ox-Hs-fVl" sceneMemberID="viewController">
+                <viewController id="3Ox-Hs-fVl" customClass="MovieDetailsViewController" customModule="Flix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KbX-h0-3g6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="nUZ-Ki-SJg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Zpw-zu-gEZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJF-8d-nvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
